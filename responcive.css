@@ -1,0 +1,327 @@
+.menu-checked {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mobile-menu-open {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mobile-menu-close {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* headewr section start  */
+    .header-menu ul li a {
+        font-size: 20px;
+        padding: 11px 11px;
+    }
+    .pr-btn {
+        padding: 3px 23px;
+        font-size: 20px;
+    }
+    /* headewr section end  */
+    /* slider section start  */
+    .bnr-img img {
+        width: 100%;
+        height: 380px;
+    }
+    .slider-text h1 {
+        font-size: 38px;
+    }
+    .slider-text p {
+        font-size: 20px;
+    }
+    .btn-1 {
+        padding: 6px 20px !important;
+    }
+    .btn-2 {
+        padding: 6px 20px !important;
+    }
+    /* slider section end */
+    /* welcome section start */
+    .welcome-section {
+        padding: 34px 0;
+    }
+    .welcome-icon {
+        width: 85px;
+        height: 85px;
+    }
+    .welcome-icon span {
+        font-size: 33px;
+    }
+    .welcome-header .h1 {
+        font-size: 34px;
+    }
+    .welcome-header p {
+        pfont-size: 18px;
+    }
+    .welcome-card h1 {
+        font-size: 20px;
+    }
+    .welcome-card p {
+        font-size: 15px;
+    }
+    /* welcome section end */
+    /* welcome info start */
+    .welcome-info {
+        padding: 50px 0;
+    }
+    .wlc-info-blog h1 {
+        font-size: 25px;
+    }
+    /* welcome info end */
+    /* service content start  */
+    .serevice-content {
+        margin-top: 10px !important;
+        margin-left: 15px !important;
+    }
+    .serevice-content p {
+        margin-bottom: 3px;
+    }
+    /* service content ens */
+    /* content-1 section strat */
+    .content-1 {
+        padding: 50px 0;
+    }
+    .content-1-blog {
+        margin-left: 4px !important;
+        padding-bottom: 2px !important;
+    }
+    .content-1-blog h4 {
+        font-size: 17px;
+        padding-bottom: 1px !important;
+    }
+    /* content-1 section end */
+    /* email section start */
+    .email-section {
+        padding: 50px 0;
+    }
+    .email-caption {
+        width: 284px;
+    }
+    .email-caption h3 {
+        font-size: 26px;
+    }
+    .email-caption p {
+        color: #ddd;
+        font-size: 17px;
+    }
+    .email-head h4 {
+        font-size: 20px;
+    }
+    /* email section end */
+    /* leader section start  */
+    .leadership-section {
+        padding: 50px 0;
+    }
+    /* leader section end */
+    /* client section start */
+    .client-img {
+        width: 175px;
+    }
+    .client-img {
+        width: 164px;
+    }
+    .client-text {
+        padding-top: 0px !important;
+    }
+    /* client section end */
+    /* contant-3 section satrt  */
+    .content-3 {
+        padding: 50px 0;
+    }
+    /* contant-3 section end */
+    /* news section start */
+    .news-section {
+        padding: 50px 0;
+    }
+    .card-body h5 {
+        font-size: 16px;
+    }
+    .card-body p {
+        font-size: 15px;
+        margin: 2px 0 !important;
+    }
+    /* news section end */
+    /* sing-up section start  */
+    .sing-up {
+        padding: 50px 0;
+    }
+    .sing-up-title h2 {
+        font-size: 25px;
+    }
+    .sing-up-title p {}
+    .sing-up-form form input {
+        font-size: 17px;
+    }
+    .sing-up ul li {
+        padding-bottom: 12px;
+    }
+    .sing-up ul li span {
+        padding: 4px 5px;
+        margin-right: 23px;
+    }
+    /* sing-up section end */
+}
+
+@media (max-width: 767px) {
+    header {
+        padding: 10px 0;
+        position: relative !important;
+    }
+    .header-logo {
+        width: 20%;
+    }
+    .header-menu {
+        float: right;
+        position: absolute;
+        top: 0;
+        width: 10%;
+        right: 16px;
+    }
+    .menu-checked {
+        position: absolute;
+        top: 9px;
+        right: -2px;
+        width: 30px;
+        height: 30px;
+        opacity: 0;
+        visibility: visible;
+    }
+    .welcome-section {
+        padding: 50px 0;
+    }
+    .menu-checked:checked~ul {
+        opacity: 1;
+        visibility: visible;
+    }
+    .menu-checked:checked~.mobile-menu-close {
+        opacity: 1;
+    }
+    .menu-checked:checked~.mobile-menu-open {
+        opacity: 0;
+    }
+    .mobile-menu-open {
+        display: inline-block;
+        font-size: 28px;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    .mobile-menu-close {
+        display: inline-block;
+        font-size: 28px;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        right: 2px;
+        opacity: 0;
+        visibility: visible;
+    }
+    .header-menu ul {
+        list-style: none;
+        position: absolute;
+        top: 47px;
+        background: #fff;
+        padding: 0;
+        width: 115px;
+        right: -10px;
+        transition: .5s;
+        z-index: -1;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .header-btn {
+        position: absolute;
+        top: 7px;
+        right: 143px;
+    }
+    .pr-btn {
+        padding: 2px 23px;
+        transition: .5s;
+        font-size: 18px;
+    }
+    .slider-text h1 {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+    .slider-text p {
+        font-size: 16px;
+    }
+    .bnr-img img {
+        height: 297px;
+    }
+    .btn-1 {
+        padding: 6px 13px !important;
+        font-size: 15px;
+        margin-top: 0 !important;
+    }
+    .btn-2 {
+        padding: 6px 13px !important;
+        font-size: 15px;
+        margin-top: 0 !important;
+    }
+    .slider-text {
+        left: 50px;
+    }
+    .welcome-info {
+        padding: 50px 0;
+    }
+    .wlc-info-blog {
+        width: 400px;
+        margin: auto;
+        margin-bottom: auto;
+        margin-bottom: 28px;
+    }
+    .service-footer {
+        width: 296px;
+        margin: auto;
+        text-align: center;
+    }
+    .email-section {
+        padding: 50px 0;
+    }
+    .email-caption {
+        margin: auto;
+    }
+    form input {
+        margin-bottom: 10px;
+    }
+    .leadership-section {
+        padding: 50px 0;
+    }
+    .content-3 {
+        padding: 50px 0;
+    }
+    .client-text p {
+        font-size: 15px;
+    }
+    .client-logo {
+        width: 100px;
+    }
+    .client-logo {
+        width: 161px;
+        margin-bottom: 7px;
+    }
+    .news-section {
+        padding: 40px 0;
+    }
+    .sing-up {
+        padding: 50px 0;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header-btn {
+        position: absolute;
+        top: 7px;
+        right: 120px;
+    }
+}
